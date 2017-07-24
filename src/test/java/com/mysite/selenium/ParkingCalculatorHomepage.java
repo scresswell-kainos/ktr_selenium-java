@@ -15,6 +15,30 @@ public class ParkingCalculatorHomepage extends ParkingCalculator{
     }
 
     @Test
+    public void page_elements_present(){
+        String[] elementListID = {"Lot",
+                "EntryTime",
+                "ExitTime",
+                "EntryDate",
+                "ExitDate"
+                };
+
+        String[] elementListName = {"Submit",
+                "EntryTimeAMPM",
+                "ExitTimeAMPM",
+                "Submit"
+                };
+
+        for (int i=0; i<elementListID.length; i++){
+            Assert.assertTrue(driver.findElements(By.id(elementListID[i])).size() > 0);
+        }
+
+        for (int i=0; i<elementListName.length; i++){
+            Assert.assertTrue(driver.findElements(By.name(elementListName[i])).size() > 0);
+        }
+    }
+
+    @Test
     public void lot_dropdown_content_check() {
         String[] expectedDropDownValues = {"Short-Term Parking",
                 "Economy Parking",
