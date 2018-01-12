@@ -29,13 +29,6 @@ public class ParkingCalculatorHomepage extends ParkingCalculator{
         }
     }
 
-
-
-
-
-
-
-
     @Test
     public void lot_dropdown_content_check() {
         String[] expectedDropDownValues = {"Short-Term Parking",

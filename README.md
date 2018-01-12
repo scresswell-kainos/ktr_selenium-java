@@ -1,11 +1,14 @@
 # parking-calculator
-A simple repository containing some java selenium automation
+A simple repository containing three selenium tests using Maven.
 
-# why?
-To assess the technical abilities of recruitment candidates.
+The tests pass when run.
 
-# what?
-We've created a simple framework and set of tests using Selenium and Maven.
-We are going to build an exercise around this repository where candidates are asked to add to and improve our automation.
+## Exercise:
+You've been provided with some selenium scripts for a parking calculator application.
+The wireframes for the application are included in the src/wireframes folder.
+- Explain what the test code is doing.
+- Explain what the tests are testing for.
+- Describe any changes you would make in relation to 'best practices' with the test code.
 
-
+# References / Credits
+The application referred to is the Grand Rapids Airport Parking Lot Calculator developed by Adam Goucher.
