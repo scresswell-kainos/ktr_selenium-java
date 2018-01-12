@@ -1,4 +1,4 @@
-# parking-calculator
+# ktr_selenium-java
 A simple repository containing three selenium tests using Maven.
 
 The tests pass when run.
