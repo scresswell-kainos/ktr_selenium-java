@@ -14,7 +14,7 @@ public class ParkingCalculator {
     }
 
     @After
-    public void teardown(){
+    public void teardown() {
         driver.close();
     }
 }

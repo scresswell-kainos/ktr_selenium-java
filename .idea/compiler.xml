@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ktr_selenium-java" />
         <module name="parking-calculator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ktr_selenium-java" target="1.5" />
       <module name="parking-calculator" target="1.5" />
     </bytecodeTargetLevel>
   </component>
